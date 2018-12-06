@@ -32,6 +32,9 @@ class App extends Component {
 					<Route path="/users/:userid" component={({match})=> {
 						return <h1>hello user {match.params.userid}</h1>
 					}}/>
+					
+				
+					
 					<Route component={NotFoundPage}/>
 				</Switch>
 			</div>
